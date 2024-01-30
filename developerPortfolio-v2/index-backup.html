@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi Portafolio</title>
+    <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Agrega tu propio archivo de estilos CSS si es necesario -->
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
+    <link rel="stylesheet" href="styles.cssS">
+    <link rel="stylesheet" href="styles-dark.css">
+    <link rel="stylesheet" href="styles-light.css">
+
+    <style>
+        body {
+            padding-top: 56px;
+            /* Ajusta el padding del cuerpo para compensar la altura de la barra de navegación fija */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="toggle-theme">Cambiar Tema</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero text-center vh-100 d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4">Mi Portafolio</h1>
+            <p class="lead">Bienvenido a mi página de portafolio. Aquí puedes conocer más sobre mi trabajo y
+                habilidades.</p>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de mí -->
+    <section id="about" class="container mt-5">
+        <h2 class="mb-4">Acerca de mí</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="foto.jpg" class="img-fluid rounded" alt="Mi Foto">
+            </div>
+            <div class="col-md-6">
+                <p class="text-justify">
+                    ¡Hola! Soy [Tu Nombre], un/a [tu profesión o área de enfoque] con experiencia en [breve descripción
+                    de tu experiencia].
+                    Mi enfoque se centra en [tu enfoque o misión]. Estoy comprometido/a con [tu enfoque o misión].
+                </p>
+                <p class="text-justify">
+                    Mi objetivo es [tu objetivo profesional o personal]. A lo largo de mi carrera, he trabajado en
+                    [proyectos anteriores o logros destacados].
+                </p>
+                <p class="text-justify">
+                    ¡Estoy emocionado/a de compartir más sobre mi trabajo y colaborar en proyectos emocionantes!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Estudios -->
+    <section id="studies" class="container mt-5">
+        <h2 class="mb-4">Estudios</h2>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h4 style="margin-left: 1.2rem;">Latest News</h4>
+                    <ul class="timeline-3">
+                        <li>
+                            <a href="#!">New Web Design</a>
+                            <a href="#!" class="float-end">21 March, 2014</a>
+                            <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque scelerisque
+                                diam
+                                non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                sagittis
+                                ligula in sodales vehicula....</p>
+                        </li>
+                        <li>
+                            <a href="#!">21 000 Job Seekers</a>
+                            <a href="#!" class="float-end">4 March, 2014</a>
+                            <p class="mt-2 text-justify">Curabitur purus sem, malesuada eu luctus eget, suscipit sed
+                                turpis. Nam
+                                pellentesque
+                                felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <a href="#!">Awesome Employers</a>
+                            <a href="#!" class="float-end">1 April, 2014</a>
+                            <p class="mt-2 text-justify">Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed
+                                nulla odio,
+                                tincidunt
+                                vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contenido del Portafolio -->
+    <section id="portfolio" class="container mt-5">
+        <h2 class="mb-4">Portafolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Puedes agregar más proyectos aquí -->
+            <!-- <div class="col-md-4">
+            <div class="card">
+                <img src="proyecto4.jpg" class="card-img-top" alt="Proyecto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto 4</h5>
+                    <p class="card-text">Descripción del proyecto.</p>
+                </div>
+            </div>
+        </div> -->
+        </div>
+    </section>
+
+
+    <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap y jQuery al final del documento -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Función para resaltar la sección activa en la barra de navegación
+        $(document).ready(function () {
+            // Función que se ejecuta al desplazarse
+            $(window).scroll(function () {
+                // Obtener la posición actual del desplazamiento
+                var scrollPosition = $(this).scrollTop();
+
+                // Iterar sobre las secciones y resaltar la activa
+                $('section').each(function () {
+                    var target = $(this).offset().top;
+                    var id = $(this).attr('id');
+
+                    if (scrollPosition >= target - 100) {
+                        $('.navbar-nav a').removeClass('active');
+                        $('.navbar-nav a[href="#' + id + '"]').addClass('active');
+                    }
+                });
+            });
+        });
+
+        // Función para cambiar el tema (dark/light)
+        function toggleTheme() {
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Función para cargar el tema almacenado en localStorage
+        function loadTheme() {
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+        }
+
+        // Ejecutar la carga del tema al cargar la página
+        document.addEventListener('DOMContentLoaded', function () {
+            loadTheme();
+        });
+
+        // Agregar un evento de clic al botón de cambiar tema
+        document.getElementById('toggle-theme').addEventListener('click', function () {
+            toggleTheme();
+        });
+    </script>
+</body>
+
+</html>
